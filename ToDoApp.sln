@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthService", "ToDoApp\AuthService.csproj", "{AD7CDC57-68FC-4044-931C-1109AFE6C4DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoService", "ToDoService\ToDoService.csproj", "{B8612BD8-E09A-4795-93D0-5665CD4847B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD7CDC57-68FC-4044-931C-1109AFE6C4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7CDC57-68FC-4044-931C-1109AFE6C4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7CDC57-68FC-4044-931C-1109AFE6C4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7CDC57-68FC-4044-931C-1109AFE6C4DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8612BD8-E09A-4795-93D0-5665CD4847B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8612BD8-E09A-4795-93D0-5665CD4847B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8612BD8-E09A-4795-93D0-5665CD4847B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8612BD8-E09A-4795-93D0-5665CD4847B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F2C46DC-1DA4-4519-8400-61F8CAD35993}
+	EndGlobalSection
+EndGlobal
