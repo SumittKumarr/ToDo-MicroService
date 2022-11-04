@@ -1,3 +1,8 @@
+using AuthService.DAL.DbContexts;
+using AuthService.DAL.Repositories.Implementations;
+using AuthService.DAL.Repositories.Interfaces;
+using AuthService.Services.Implementations;
+using AuthService.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -5,12 +10,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using ToDoApp.DAL.DbContexts;
+
 
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<ApplicationDbContext>(option => option.UseSqlServer("name=DefaultConnection"));
+builder.Services.AddScoped<IAuthRepository, AuthRepository>();
+builder.Services.AddScoped<IAuthService, AuthenticationService>();
 
 
 

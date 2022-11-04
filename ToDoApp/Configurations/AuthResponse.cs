@@ -1,4 +1,4 @@
-﻿namespace ToDoApp.Configurations
+﻿namespace AuthService.Configurations
 {
     public class AuthResponse
     {

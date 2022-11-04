@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using ToDoApp.DAL.Entities;
+using AuthService.DAL.Entities;
 
-namespace ToDoApp.DAL.DbContexts
+namespace AuthService.DAL.DbContexts
 {
     public class ApplicationDbContext : IdentityDbContext
     {

@@ -1,6 +1,6 @@
-﻿using ToDoApp.Configurations;
+﻿using AuthService.Configurations;
 
-namespace ToDoApp.DAL.Entities
+namespace AuthService.DAL.Entities
 {
     public class Response : AuthResponse
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ToDoApp.DAL.Entities
+namespace AuthService.DAL.Entities
 {
     public class Login
     {

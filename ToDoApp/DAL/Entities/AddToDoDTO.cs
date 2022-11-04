@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace ToDoApp.DAL.Entities
+namespace AuthService.DAL.Entities
 {
     public class AddToDoDTO
     {

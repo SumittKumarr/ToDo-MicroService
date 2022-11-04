@@ -1,7 +1,7 @@
-﻿namespace ToDoApp.Configurations
+﻿namespace AuthService.Configurations
 {
     public class JwtConfig
     {
-        public string Key { get; set; } = "This is my supper secret key for jwt";
+        public string Key { get; set; } 
     }
 }
